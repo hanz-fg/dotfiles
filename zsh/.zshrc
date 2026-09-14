@@ -112,3 +112,34 @@ source $ZSH/oh-my-zsh.sh
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+export PATH="$PATH:/home/hanz/.local/bin"
+export PATH="$HOME/.local/bin:$PATH"
+export PATH="$HOME/Android/Sdk/build-tools/36.1.0:$PATH"
+
+export PYTHON_RNS_PATH=$(python3 -c "import site; print(site.getusersitepackages())")
+export ANDROID_HOME=$HOME/Android/Sdk
+export PATH=$PATH:$ANDROID_HOME/cmdline-tools/latest/bin
+export PATH=$PATH:$ANDROID_HOME/platform-tools
+export CHROME_EXECUTABLE=/usr/bin/chromium
+export PATH="$HOME/flutter/bin:$PATH"
+
+# bun completions
+[ -s "/home/hanz/.bun/_bun" ] && source "/home/hanz/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
+alias mitmproxy="~/.venv/mitmproxy/bin/mitmproxy"
+alias mitmweb="~/.venv/mitmproxy/bin/mitmweb"
+# Flutter Pub Cache Bin
+export PATH="$PATH":"$HOME/.pub-cache/bin"
+
+# Node/NPM Global Binaries (in case npm global paths aren't linked)
+export PATH="$PATH":"$(npm config get prefix)/bin"
+export PATH="$HOME/.npm-global/bin:$PATH"
+export DEVIN_AGENTIC_HOME="/home/hanz/devin_sandbox"
+
+# QODER_DISPATCHER_PATH v1
+path=("$HOME/.qoder/entry" ${path:#"$HOME/.qoder/entry"})
+export PATH
+# END QODER_DISPATCHER_PATH v1
