@@ -1,0 +1,24 @@
+UNIT FILE                          STATE   PRESET
+avahi-daemon.service               enabled disabled
+captcha-solver.service             enabled disabled
+docker.service                     enabled disabled
+getty@.service                     enabled enabled
+httpd.service                      enabled disabled
+lightdm.service                    enabled disabled
+mariadb.service                    enabled disabled
+NetworkManager-dispatcher.service  enabled disabled
+NetworkManager-wait-online.service enabled disabled
+NetworkManager.service             enabled disabled
+nftables.service                   enabled disabled
+ngrok.service                      enabled disabled
+proton.VPN.service                 enabled disabled
+systemd-resolved.service           enabled enabled
+systemd-timesyncd.service          enabled enabled
+tailscaled.service                 enabled disabled
+avahi-daemon.socket                enabled disabled
+systemd-resolved-monitor.socket    enabled disabled
+systemd-resolved-varlink.socket    enabled disabled
+systemd-userdbd.socket             enabled enabled
+remote-fs.target                   enabled enabled
+
+21 unit files listed.
