@@ -1,0 +1,18 @@
+Atom Material Icons
+Dart
+JavaEE
+android
+continue-intellij-extension
+ej
+flutter-intellij
+flutter-intellij-96
+ignore
+image-preview
+intellij-rainbow-brackets
+mcpserver
+ml-llm
+nodeJS-remoteInterpreter
+slang-intellij
+vcs-hg
+vcs-perforce
+vcs-svn
